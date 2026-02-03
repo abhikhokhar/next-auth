@@ -30,5 +30,5 @@ const userSchema = new mongoose.Schema({
     verifyTokenExpiry: Date,
 },{ timestamps: true})
 
-const User = mongoose.models.users || mongoose.model('users', userSchema);
+const User = mongoose.models.users || mongoose.model("users", userSchema);
 export default User;
